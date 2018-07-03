@@ -615,7 +615,7 @@ sudo chmod -R 775 /var/www/$server_name/html
 sudo chmod -R 775 /var/web
 sudo chmod -R 775 /var/stratum
 sudo chmod -R 777 /var/web/yaamp/runtime
-sudo chmod -R 777 /root/backup/
+sudo chmod -R 777 $HOME/backup/
 sudo chmod -R 777 /var/log
 sudo chmod -R 775 /var/web/serverconfig.php
 sudo service nginx restart
